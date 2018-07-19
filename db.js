@@ -3,7 +3,7 @@ module.exports = function(mysql) {
   const db = mysql.createConnection({
     host     : 'localhost',
     user     : 'root',
-    password : 'gianinna',
+    password : '170324Mr',
     database : 'todo'
   });
 
@@ -12,7 +12,7 @@ module.exports = function(mysql) {
     if(err){
       throw err;
     };
-    console.log('Mysql is connected');
+    console.log('Mysql is connected. NOW GO DIE');
   });
 
   return db;
